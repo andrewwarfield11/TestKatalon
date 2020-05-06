@@ -16,9 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://local.transactlyapp.com:3000/login')
+WebUI.openBrowser('http://realtydock.co/login')
 
 WebUI.setText(findTestObject('Object Repository/LUCTransOrder/input_Email_email'), 'kevin@transactly.com')
 

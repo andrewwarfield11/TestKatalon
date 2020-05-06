@@ -24,7 +24,7 @@ import static org.junit.Assert.*
 import java.util.regex.Pattern as Pattern
 import static org.apache.commons.lang3.StringUtils.join
 
-WebUI.openBrowser('http://local.transactlyapp.com:3000/login')
+WebUI.openBrowser('http://realtydock.co/login')
 
 //def driver = DriverFactory.getWebDriver()
 //String baseUrl = "https://realtydock.co/login"
